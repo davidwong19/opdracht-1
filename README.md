@@ -8,3 +8,5 @@
 
  and it will store the data in a xlsx file it will take the highest btc of that time and store it
  the scraping will only stop if you press stop.
+
+ you can also put in a downtime in time.sleep()
