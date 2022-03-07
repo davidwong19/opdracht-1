@@ -10,3 +10,5 @@
  the scraping will only stop if you press stop.
 
  you can also put in a downtime in time.sleep()
+
+ it will only store the data in the csv if the data is highest btc at that time. It will not store the same value in the csv
