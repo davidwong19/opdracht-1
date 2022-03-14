@@ -50,7 +50,7 @@ a = 1
 try:
     while  a < 6:
             #put in time till next scrape time. sleep(3 = 3s)
-            time.sleep(1)
+            time.sleep(60)
             hash.clear()
             timez.clear()
             btc.clear()
