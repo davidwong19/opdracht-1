@@ -123,6 +123,7 @@ try:
                     mycrypto = {"hash": hash[z], "time": timez[z], "btc": highNOsort[z], "usd": usd[z]}
                     #insert
                     x = col_crypto.insert_one(mycrypto)
+                    print('add new value to mongodb')
                     break
                 z = z+1
               
