@@ -10,5 +10,5 @@
 
  scraper_mongodb: I scrape the highest btc transaction every minute and store my data in csv
 
- scraper_final_cache:  I scrape the highest btc transaction every second and put it in redis and after 1 min I send highest btc transaction to mongodb
+ scraper_final_cache:  I scrape the highest btc transaction  and store it in redis and after 1 min I send highest btc transaction to mongodb
  
