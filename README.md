@@ -6,10 +6,9 @@
  Amount (BTC)
  Amount (USD)
 
- and it will store the data in a csv file it will take the highest btc of that time and store it.
- The scraping will only stop if you press stop.
+ scraper_first: I scrape the highest btc transaction every minute   and store my data in csv
 
- you can also put in a downtime in time.sleep() so after x amount of time it will check again and scrape the site again.
+ scraper_mongodb: I scrape the highest btc transaction every minute and store my data in csv
 
- it will now store the data in mongodb
+ scraper_final_cache:  I scrape the highest btc transaction every second and put it in redis and after 1 min I send highest btc transaction to mongodb
  
