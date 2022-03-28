@@ -72,7 +72,7 @@ try:
                 s = ok.text.strip()
                 if k%3 == 0:
                     s1 = s.split(':')
-                    s2 = int(s1[0])+1
+                    s2 = int(s1[0])+2
                     s3 = str(s2) +':'+s1[1]
                     timez.append(s3)
                 k = k + 1
